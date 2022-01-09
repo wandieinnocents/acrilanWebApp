@@ -1,63 +1,100 @@
-<footer class="main-footer" style="background-image: url({{ asset('assets/frontend_assets/assets/images/background/4.png') }})">
-			<div class="auto-container">
-
-				<!-- Widgets Section -->
-				<div class="widgets-section">
-					<div class="row clearfix">
-
-						<!-- Footer Column -->
-						<div class="footer-column col-lg-3 col-md-6 col-sm-12">
-							<!-- Info Widget -->
-							<div class="footer-widget info-widget">
-								<h4>Contact Info</h4>
-								<a class="number" href="tel:1800-574-9687">(1800) 574 9687</a>
-								<ul class="email-list">
-									<li><a href="mailto:wengdo@contact.co.in">wengdo@contact.co.in</a></li>
-									<li><a href="mailto:contact@wengdo.com">contact@wengdo.com</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<!-- Footer Column -->
-						<div class="footer-column col-lg-6 col-md-12 col-sm-12">
-							<!-- Logo Widget -->
-							<div class="footer-widget logo-widget">
-								<div class="logo">
-									<a href="index-2.html"><img src="{{ asset('assets/frontend_assets/assets/images/footer-logo.png') }}" alt="" /></a>
-								</div>
-								<div class="text">Just Burgers <br> 256, baker Street, Suit Building <br> New Youk, 5245
-								</div>
-							</div>
-						</div>
-
-						<!-- Footer Column -->
-						<div class="footer-column col-lg-3 col-md-6 col-sm-12">
-							<!-- Info Widget -->
-							<div class="footer-widget timing-widget">
-								<h4>Opening Hour</h4>
-								<ul class="timing-list">
-									<li>Tuesday- Saturday <span>8 AM – 5 PM</span></li>
-									<li>Sunday <span>12 AM – 8 PM</span></li>
-									<li>Monday <span>Off</span></li>
-								</ul>
-							</div>
-						</div>
-
+============================================= -->
+	<footer id="ft-footer-3" class="ft-footer-section-3" data-background="assets/frontend_assets/assets/img/bg/f-bg3.jpg">
+		<div  class="ft-newslatter-section-3">
+			<div class="container">
+				<div class="ft-newslatter-content-3 d-flex justify-content-between align-items-center">
+					<div class="ft-newslatter-text headline">
+						<h3>Looking for the Best Transport Services?</h3>
+						<span>As a app web crawler expert, We will help to organize.</span>
+					</div>
+					<div class="ft-newslatter-btn position-relative">
+						<a class="d-flex align-items-center justify-content-center text-uppercase" href="contact.html">Get a quote</a>
 					</div>
 				</div>
-
-				<!-- Footer Bottom -->
-				<div class="footer-bottom">
-					<div class="clearfix">
-						<div class="pull-left">
-							<div class="copyright">&copy; Copyright 2020 just Burgers WordPress Theme. All right
-								reserved.</div>
-						</div>
-						<div class="pull-right">
-							<a href="#" class="purchase">Purchase Now</a>
-						</div>
-					</div>
-				</div>
-
 			</div>
-		</footer>
+		</div>
+		<div class="ft-footer-widget-wrapper-3">
+			<div class="container">
+				<div class="ft-footer-content-wrap-3">
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="ft-footer-widget">
+								<div class="ft-footer-logo-widget headline pera-content">
+									<div class="ft-footer-logo">
+										<a href="#"><img src="assets/frontend_assets/assets/img/logo/logo2.png" alt=""></a>
+									</div>
+									<p>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
+									<a class="footer-logo-btn text-center text-uppercase" href="about.html">About us</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="ft-footer-widget">
+								<div class="ft-footer-newslatter-widget pera-content headline">
+									<h3 class="widget-title">Newsletter</h3>
+									<p>Subscribe our newsletter to get our
+										latest update & news
+									</p>
+									<form action="#">
+										<input type="email" placeholder="Your mail address">
+										<button type="submit"><i class="far fa-paper-plane"></i></button>
+									</form>
+									<div class="ft-footer-social ul-li">
+										<ul>
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-behance"></i></a></li>
+											<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="ft-footer-widget">
+								<div class="ft-footer-newslatter-widget pera-content headline">
+									<div class="ft-footer-info-widget ul-li ">
+										<h3 class="widget-title">Official info:</h3>
+										<ul>
+											<li>
+												<i class="fas fa-map-marker-alt"></i> 
+												<a href="#">30 Commercial Road
+												Fratton, Australia</a>
+											</li>
+											<li>
+												<i class="fas fa-phone"></i><a href="#">1-888-452-1505</a>
+											</li>
+										</ul>
+										<div class="office-open-hour">
+											<span>Open Hours: </span>
+											<p>Mon - Sat: 8 am - 5 pm,
+												Sunday: CLOSED
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="ft-footer-widget ul-li-block headline pera-content">
+								<div class="gallery-widget clearfix">
+									<h3 class="widget-title">Gallery </h3>
+									<ul class="zoom-gallery">
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl1.jpg" data-source="assets/img/gallery/gl1.jpg"><img src="assets/img/gallery/gl1.jpg" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl2.jpg" data-source="assets/img/gallery/gl2.jpg"><img src="assets/img/gallery/gl2.jpg" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl3.jpg" data-source="assets/img/gallery/gl3.jpg"><img src="assets/img/gallery/gl3.jpg" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl4.jpg" data-source="assets/img/gallery/gl4.jpg"><img src="assets/img/gallery/gl4.jpg" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl5.jpg" data-source="assets/img/gallery/gl4.jpg"><img src="assets/img/gallery/gl5.jpg" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl6.jpg" data-source="assets/img/gallery/gl4.jpg"><img src="assets/img/gallery/gl6.jpg" alt=""></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ft-footer-copyright text-center">
+						<span>© 2021 Fastrans - Transport Services. All rights reserved.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>	
