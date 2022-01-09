@@ -24,46 +24,28 @@
 					<div class="ft-header-main-menu-cta  d-flex align-items-center">
 						<nav class="ft-main-navigation clearfix ul-li">
 							<ul id="ft-main-nav" class="nav navbar-nav clearfix">
-								<li class="dropdown">
+								<li>
 									<a href="%21.html#">Home</a>
-									<ul class="dropdown-menu clearfix">
-										<li><a href="index-1.html">Home Page 1</a></li>
-										<li><a href="index-2.html">Home Page 2</a></li>
-										<li><a href="index-3.html">Home Page 3</a></li>
-									</ul>
-								</li>
-								<li><a href="about.html">About</a></li>
-								<li class="dropdown">
-									<a href="%21.html#">Service</a>
-									<ul class="dropdown-menu clearfix">
-										<li><a href="service.html">Service Page </a></li>
-										<li><a href="service-single.html">Service Details</a></li>
-									</ul>
+								
 								</li>
 								<li class="dropdown">
-									<a href="%21.html#">Project</a>
+									<a href="#">Know Us</a>
 									<ul class="dropdown-menu clearfix">
-										<li><a href="project.html">Project Page</a></li>
-										<li><a href="project-single.html">Project Details</a></li>
+										<li><a href="/about">About Us </a></li>
+										<li><a href="/projects">Projects</a></li>
+										<li><a href="company_profile">Company Profile</a></li>
+										<li><a href="/team">Team</a></li>
+
 									</ul>
 								</li>
-								<li class="dropdown">
-									<a href="%21.html#">News</a>
-									<ul class="dropdown-menu clearfix">
-										<li><a href="blog.html">News </a></li>
-										<li><a href="blog-single.html">News Details</a></li>
-									</ul>
+								<li>
+									<a href="/works">Services</a>
 								</li>
-								<li class="dropdown">
-									<a href="%21.html#">Others</a>
-									<ul class="dropdown-menu clearfix">
-										<li><a href="team.html">Team Page </a></li>
-										<li><a href="team-single.html">Team  Details </a></li>
-										<li><a href="coming-soon.html">Coming Soon</a></li>
-										<li><a href="faq.html">Faq Page</a></li>
-										<li><a href="contact.html">Contact Page</a></li>
-										<li><a href="pricing.html">Pricing Page</a></li>
-									</ul>
+								<li>
+									<a href="/pictures">Gallery</a>
+								</li>
+								<li>
+									<a href="{{ route('contact.create') }}">Contact</a>
 								</li>
 							</ul>
 						</nav>
@@ -154,76 +136,104 @@
 				<span class="text-uppercase">We specialise in the transportation</span>
 				<h2>Specialist Logistics Services</h2>
 			</div>
-			<div class="ft-service-content-3">
-				<div class="ft-service-content-items-3">
-					<div class="row justify-content-center">
-						<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<div class="ft-service-innerbox-3 position-relative">
-								<div class="ft-service-img position-relative">
-									<img src="assets/frontend_assets/assets/img/service/ser4.jpg" alt="">
-								</div>
-								<div class="ft-service-text-icon position-relative">
-									<div class="ft-service-icon d-flex align-items-center justify-content-center position-absolute">
-										<i class="flaticon-plane"></i>
-									</div>
-									<div class="ft-service-text position-relative headline pera-content">
-										<h3><a href="service-single.html">Air Freight Service</a></h3>
-										<p>Once your business gets last-mile
-										delivery right, it becomes a hallmark of your service which creates a serious business opportunity.</p>
-									</div>
-								</div>
-								<div class="more-btn position-absolute">
-									<a class="d-flex align-items-center justify-content-center text-uppercase" href="service-single.html">Read more <i class="far fa-arrow-right"></i></a>
-								</div>
+
+			<!-- grid icons  -->
+			<div class="ft-goodness-featured-content">
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="ft-goodness-featured-innerbox text-center">
+							<div class="ft-goodness-featured-icon d-flex align-items-center justify-content-center">
+								<i class="fal fa-anchor"></i>
+							</div>
+							<div class="ft-goodness-featured-text headline pera-content">
+								<h3>Trusted Franchise</h3>
+								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-							<div class="ft-service-innerbox-3 position-relative">
-								<div class="ft-service-img position-relative">
-									<img src="assets/frontend_assets/assets/img/service/ser6.jpg" alt="">
-								</div>
-								<div class="ft-service-text-icon position-relative">
-									<div class="ft-service-icon d-flex align-items-center justify-content-center position-absolute">
-										<i class="flaticon-boat"></i>
-									</div>
-									<div class="ft-service-text position-relative headline pera-content">
-										<h3><a href="service-single.html">Sea Transportation</a></h3>
-										<p>Once your business gets last-mile
-										delivery right, it becomes a hallmark of your service which creates a serious business opportunity.</p>
-									</div>
-								</div>
-								<div class="more-btn position-absolute">
-									<a class="d-flex align-items-center justify-content-center text-uppercase" href="service-single.html">Read more <i class="far fa-arrow-right"></i></a>
-								</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="ft-goodness-featured-innerbox text-center">
+							<div class="ft-goodness-featured-icon d-flex align-items-center justify-content-center">
+								<i class="fal fa-user-headset"></i>
+							</div>
+							<div class="ft-goodness-featured-text headline pera-content">
+								<h3>Customer Support</h3>
+								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-							<div class="ft-service-innerbox-3 position-relative">
-								<div class="ft-service-img position-relative">
-									<img src="assets/frontend_assets/assets/img/service/ser8.jpg" alt="">
-								</div>
-								<div class="ft-service-text-icon position-relative">
-									<div class="ft-service-icon d-flex align-items-center justify-content-center position-absolute">
-										<i class="flaticon-free-shipping"></i>
-									</div>
-									<div class="ft-service-text position-relative headline pera-content">
-										<h3><a href="service-single.html">Road Transportation</a></h3>
-										<p>Once your business gets last-mile
-										delivery right, it becomes a hallmark of your service which creates a serious business opportunity.</p>
-									</div>
-								</div>
-								<div class="more-btn position-absolute">
-									<a class="d-flex align-items-center justify-content-center text-uppercase" href="service-single.html">Read more <i class="far fa-arrow-right"></i></a>
-								</div>
-							</div> 
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="ft-goodness-featured-innerbox text-center">
+							<div class="ft-goodness-featured-icon d-flex align-items-center justify-content-center">
+								<i class="fal fa-badge-sheriff"></i>
+							</div>
+							<div class="ft-goodness-featured-text headline pera-content">
+								<h3>Reliability &amp; Punctuality</h3>
+								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="ft-service-more-btn d-flex flex-wrap justify-content-center align-items-center wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-					<span>Our list of services does not end here. Find out how we can help you and your business.
-					</span> <a class="text-uppercase align-items-center justify-content-center d-flex" href="service.html" target="_blank">More Services</a>
-				</div>
 			</div>
+
+
+			<!-- grid icons  -->
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="ft-goodness-featured-innerbox text-center">
+							<div class="ft-goodness-featured-icon d-flex align-items-center justify-content-center">
+								<i class="fal fa-anchor"></i>
+							</div>
+							<div class="ft-goodness-featured-text headline pera-content">
+								<h3>Trusted Franchise</h3>
+								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="ft-goodness-featured-innerbox text-center">
+							<div class="ft-goodness-featured-icon d-flex align-items-center justify-content-center">
+								<i class="fal fa-user-headset"></i>
+							</div>
+							<div class="ft-goodness-featured-text headline pera-content">
+								<h3>Customer Support</h3>
+								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="ft-goodness-featured-innerbox text-center">
+							<div class="ft-goodness-featured-icon d-flex align-items-center justify-content-center">
+								<i class="fal fa-badge-sheriff"></i>
+							</div>
+							<div class="ft-goodness-featured-text headline pera-content">
+								<h3>Reliability &amp; Punctuality</h3>
+								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+							</div>
+						</div>
+					</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
 		</div>
 	</section>
 <!-- End of Service section
@@ -408,248 +418,8 @@
 		</div>
 	</section>	
 <!-- End of Fun fact section
-	============================================= -->	
-
-<!-- Start of why choose us section
 	============================================= -->
-	<section id="ft-why-choose-2" class="ft-why-choose-section-2 position-relative">
-		<span class="why-choose-bg-2"><img src="assets/frontend_assets/assets/img/bg/wc-bg2.jpg" alt=""></span>
-		<span class="why-choose-img-2 position-absolute wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"><img src="assets/frontend_assets/assets/img/about/ab3.png" alt=""></span>
-		<div class="container">
-			<div class="ft-why-choose-content-2">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="ft-why-choose-text-2">
-							<div class="ft-section-title-3 headline">
-								<span class="text-uppercase">Why choose us?</span>
-								<h2>We Create Opportunity
-								to Reach Potential.</h2>
-							</div>
-							<div class="ft-why-choose-list-wrapper ul-li-block">
-								<ul>
-									<li>Career progression</li>
-									<li>Fasttrans offers a clear and transparent career
-									journey and provides the support</li>
-									<li>Make long term business decisions</li>
-									<li>Provide a service we are proud of</li>
-									<li>Be a responsible member of the community</li>
-									<li>Always seek to improve</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="ft-why-choose-form-wrapper">
-							<div class="ft-why-choose-form pera-content">
-								<form action="#">
-									<div class="row">
-										<div class="col-md-12">
-											<div class="wc-input">
-												<span>Freight type:</span>
-												<div class="wc-select position-relative">
-													<select name="#">
-														<option value="#">Seelct</option>
-														<option value="#">Air Freight</option>
-														<option value="#">Sea Freight</option>
-														<option value="#">Road Freight</option>
-													</select>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-12">
-											<div class="wc-input">
-												<span>Load:</span>
-												<div class="wc-select position-relative">
-													<select name="#">
-														<option value="#">Seelct</option>
-														<option value="#">500kg</option>
-														<option value="#">1000kg</option>
-														<option value="#">1500kg</option>
-													</select>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-12">
-											<div class="wc-input-range" data-background="assets/frontend_assets/assets/img/bg/wc-f-bg.jpg">
-												<span>DIST (Miles):</span>
-												<div class="wc-input-range-area d-flex align-items-center">
-													<div id="slider-range" class="range-bar"></div>
-													<div class="range-value clearfix">
-														<input type="text" id="amount">
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="wc-input">
-												<span>Your name:</span>
-												<div class="wc-text-input position-relative">
-													<input type="text" placeholder="Jhon Doe..">
-												</div>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="wc-input">
-												<span>Phone number:</span>
-												<div class="wc-text-input position-relative">
-													<input type="text" placeholder="+883...">
-												</div>
-											</div>
-										</div>
-									</div>
-									<button class="text-uppercase" type="submit">Submit request</button>
-								</form>
-								<p>By clicking on <a href="#">this button</a>, I agree to the processing.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<!-- End of why choose us section
-	============================================= -->
-
-<!-- Start of testimonial section
-	============================================= -->
-	<section id="ft-testimonial-3" class="ft-testimonial-section-3 position-relative">
-		<div class="container">
-			<div class="ft-testimonial-content-3">
-				<div class="ft-testimonial-slider-wrapper-3 d-flex">
-					<div class="ft-testimonial-slider-img">
-						<img src="assets/frontend_assets/assets/img/testimonial/tst-bg.jpg" alt="">
-					</div>
-					<div class="ft-testimonial-slider-area-3">
-						<div class="ft-testimonial-slider-3">
-							<div class="ft-testimonial-slider-items-3 pera-content position-relative">
-								<p>Recruiting for my required role hadn't been easy so Cast UK jumped in with several desirable candidates for the role.</p>
-								<div class="ft-testimonial-slider-author">
-									<span class="name">Lucy Davies</span>
-									<span class="designation">Head of Supply Chain, Pharma Company</span>
-								</div>
-							</div>
-							<div class="ft-testimonial-slider-items-3 pera-content position-relative">
-								<p>Recruiting for my required role hadn't been easy so Cast UK jumped in with several desirable candidates for the role.</p>
-								<div class="ft-testimonial-slider-author">
-									<span class="name">Lucy Davies</span>
-									<span class="designation">Head of Supply Chain, Pharma Company</span>
-								</div>
-							</div>
-							<div class="ft-testimonial-slider-items-3 pera-content position-relative">
-								<p>Recruiting for my required role hadn't been easy so Cast UK jumped in with several desirable candidates for the role.</p>
-								<div class="ft-testimonial-slider-author">
-									<span class="name">Lucy Davies</span>
-									<span class="designation">Head of Supply Chain, Pharma Company</span>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>		
-<!-- End of testimonial section
-	============================================= -->
-
-<!-- Start of Blog section
-	============================================= -->
-	<section id="ft-blog-3" class="ft-blog-section-3">
-		<div class="container">
-			<div class="ft-section-title-3 headline text-center">
-				<span class="text-uppercase">Some of our news from latest blog</span>
-				<h2>Get the latest news, advice &
-				best practice from blog.</h2>
-			</div>
-			<div class="ft-blog-content-3">
-				<div class="blog-slider-3">
-					<div class="ft-item-innerbox">
-						<div class="ft-blog-innerbox-3 position-relative">
-							<div class="ft-blog-img">
-								<img src="assets/frontend_assets/assets/img/blog/blg3.3.jpg" alt="">
-							</div>
-							<div class="ft-blog-text headline pera-content position-relative">
-								<div class="ft-blog-meta d-flex justify-content-between">
-									<a href="#"><i class="fas fa-calendar-alt"></i> September 12, 2019</a>
-									<a href="#"><i class="fas fa-user"></i> Admin</a>
-								</div>
-								<h3><a href="blog-single.html">Organisational teams of
-								the are just like families.</a></h3>
-								<a class="more-btn text-uppercase d-flex justify-content-center align-items-center position-absolute" href="blog-single.html">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="ft-item-innerbox">
-						<div class="ft-blog-innerbox-3 position-relative">
-							<div class="ft-blog-img">
-								<img src="assets/frontend_assets/assets/img/blog/blg3.4.jpg" alt="">
-							</div>
-							<div class="ft-blog-text headline pera-content position-relative">
-								<div class="ft-blog-meta d-flex justify-content-between">
-									<a href="#"><i class="fas fa-calendar-alt"></i> September 12, 2019</a>
-									<a href="#"><i class="fas fa-user"></i> Admin</a>
-								</div>
-								<h3><a href="blog-single.html">From Monday 14th June
-								we look a little different!</a></h3>
-								<a class="more-btn text-uppercase d-flex justify-content-center align-items-center position-absolute" href="blog-single.html">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="ft-item-innerbox">
-						<div class="ft-blog-innerbox-3 position-relative">
-							<div class="ft-blog-img">
-								<img src="assets/frontend_assets/assets/img/blog/blg3.5.jpg" alt="">
-							</div>
-							<div class="ft-blog-text headline pera-content position-relative">
-								<div class="ft-blog-meta d-flex justify-content-between">
-									<a href="#"><i class="fas fa-calendar-alt"></i> September 12, 2019</a>
-									<a href="#"><i class="fas fa-user"></i> Admin</a>
-								</div>
-								<h3><a href="blog-single.html">The current UK Haulage
-								Market – How will this...</a></h3>
-								<a class="more-btn text-uppercase d-flex justify-content-center align-items-center position-absolute" href="blog-single.html">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="ft-item-innerbox">
-						<div class="ft-blog-innerbox-3 position-relative">
-							<div class="ft-blog-img">
-								<img src="assets/frontend_assets/assets/img/blog/blg3.3.jpg" alt="">
-							</div>
-							<div class="ft-blog-text headline pera-content position-relative">
-								<div class="ft-blog-meta d-flex justify-content-between">
-									<a href="#"><i class="fas fa-calendar-alt"></i> September 12, 2019</a>
-									<a href="#"><i class="fas fa-user"></i> Admin</a>
-								</div>
-								<h3><a href="blog-single.html">Organisational teams of
-								the are just like families.</a></h3>
-								<a class="more-btn text-uppercase d-flex justify-content-center align-items-center position-absolute" href="blog-single.html">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="ft-item-innerbox">
-						<div class="ft-blog-innerbox-3 position-relative">
-							<div class="ft-blog-img">
-								<img src="assets/frontend_assets/assets/img/blog/blg3.4.jpg" alt="">
-							</div>
-							<div class="ft-blog-text headline pera-content position-relative">
-								<div class="ft-blog-meta d-flex justify-content-between">
-									<a href="#"><i class="fas fa-calendar-alt"></i> September 12, 2019</a>
-									<a href="#"><i class="fas fa-user"></i> Admin</a>
-								</div>
-								<h3><a href="blog-single.html">From Monday 14th June
-								we look a little different!</a></h3>
-								<a class="more-btn text-uppercase d-flex justify-content-center align-items-center position-absolute" href="blog-single.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>		
-<!-- End of Blog section
-	============================================= -->
-
+	
 <!-- Start Of Footer section
 	============================================= -->
 	@include('frontend.includes_frontend.footer')

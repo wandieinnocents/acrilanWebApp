@@ -1,18 +1,4 @@
-============================================= -->
 	<footer id="ft-footer-3" class="ft-footer-section-3" data-background="assets/frontend_assets/assets/img/bg/f-bg3.jpg">
-		<div  class="ft-newslatter-section-3">
-			<div class="container">
-				<div class="ft-newslatter-content-3 d-flex justify-content-between align-items-center">
-					<div class="ft-newslatter-text headline">
-						<h3>Looking for the Best Transport Services?</h3>
-						<span>As a app web crawler expert, We will help to organize.</span>
-					</div>
-					<div class="ft-newslatter-btn position-relative">
-						<a class="d-flex align-items-center justify-content-center text-uppercase" href="contact.html">Get a quote</a>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="ft-footer-widget-wrapper-3">
 			<div class="container">
 				<div class="ft-footer-content-wrap-3">
