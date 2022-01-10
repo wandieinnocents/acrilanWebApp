@@ -18,15 +18,7 @@ use App\Models\FoodMenu;
 */
 
 Route::get('/', function () {
-
-    $foodmenus = Foodmenu::paginate(12);
-    $foodmenus_chicken_categories = Foodmenu::where('foodmenu_category_id',7)->get();
-    // dd($foodmenus_chicken_categories);
-    $foodmenus_pizza_categories = Foodmenu::where('foodmenu_category_id', 6)->get();
-
-    $drinkmenus = DrinkMenu::all();
-
-    return view('welcome',compact('foodmenus','drinkmenus','foodmenus_chicken_categories','foodmenus_pizza_categories'));
+    return view('welcome');
 });
 // FRONT END ROUTES
 // about us
@@ -38,9 +30,7 @@ Route::resource('/works', 'App\Http\Controllers\FrontEnd\FrontEndServiceControll
 // gallery
 Route::resource('/pictures', 'App\Http\Controllers\FrontEnd\FrontEndGalleryController');
 //food menu
-Route::resource('/foods', 'App\Http\Controllers\FrontEnd\FrontEndFoodMenuController');
 //drinks menu
-Route::resource('/drinks', 'App\Http\Controllers\FrontEnd\FrontEndDrinkMenuController');
 //posts
 Route::resource('/articles', 'App\Http\Controllers\FrontEnd\FrontEndPostController');
 //bookings
@@ -77,20 +67,12 @@ Route::resource('/post_categories', 'App\Http\Controllers\BackEnd\PostCategoryCo
 // Admin dashboard 
 Route::resource('/dashboard', 'App\Http\Controllers\BackEnd\DashboardController');
 // Bookings
-Route::resource('/bookings', 'App\Http\Controllers\BackEnd\BookingController');
+// Route::resource('/bookings', 'App\Http\Controllers\BackEnd\BookingController');
 // Feedbacks
 Route::resource('/feedbacks', 'App\Http\Controllers\BackEnd\FeedbackController');
 // Orders
-Route::resource('/orders', 'App\Http\Controllers\BackEnd\OrderController');
-// Food menu category
-Route::resource('/foodmenu_categories', 'App\Http\Controllers\BackEnd\FoodMenuCategoryController');
-// Food menu
-Route::resource('/foodmenus', 'App\Http\Controllers\BackEnd\FoodMenuController');
-// Drink menu category
-Route::resource('/drinkmenu_categories', 'App\Http\Controllers\BackEnd\DrinkMenuCategoryController');
-// Drink menu
-Route::resource('/drinkmenus', 'App\Http\Controllers\BackEnd\DrinkMenuController');
-// Gallery  category
+// Route::resource('/orders', 'App\Http\Controllers\BackEnd\OrderController');
+
 Route::resource('/gallery_categories', 'App\Http\Controllers\BackEnd\GalleryCategoryController');
 // Gallery 
 Route::resource('/galleries', 'App\Http\Controllers\BackEnd\GalleryController');

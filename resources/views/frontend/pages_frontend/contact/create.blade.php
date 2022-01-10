@@ -5,107 +5,93 @@
 @endsection
 
 @section('content')
-<!-- content  -->
 
 
-<!-- Contact Page Title -->
-<section class="contact-page-title"
-    style="background-image: url({{ asset('assets/frontend_assets/assets/images/background/17.jpg') }})">
-    <div class="auto-container">
-        <h1>Hello, Leave us a Messasge!</h1>
-    </div>
-</section>
-<!-- End Contact Page Title -->
-<!-- Contact Page Section -->
-<section class="contact-page-section">
-    <div class="auto-container">
+<!-- Start of Breadcrumb section
+	============================================= -->
+	<section id="ft-breadcrumb" class="ft-breadcrumb-section position-relative" data-background="{{ asset('assets/frontend_assets/assets/img/bg/bread-bg.jpg') }}">
+		<span class="background_overlay"></span>
+		<span class="design-shape position-absolute"><img src="{{ asset('assets/frontend_assets/assets/img/shape/tmd-sh.png') }}" alt=""></span>
+		<div class="container">
+			<div class="ft-breadcrumb-content headline text-center position-relative">
+				<h2>About</h2>
+				<div class="ft-breadcrumb-list ul-li">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li>About</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>	
+<!-- End of Breadcrumb section
+	============================================= -->
 
-        <div class="row clearfix">
+<!-- Start of About section
+	============================================= -->
+	<section id="ft-about-2" class="ft-about-section-2">
+		<div class="container">
+			<div class="ft-about-content-2">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="ft-about-text-wrapper-2">
+							<div class="ft-section-title-2 headline pera-content">
+								<span class="sub-title">About Company</span>
+								<h2>We Provide
+									a Reliable Services
+									<span>Since 1982</span>
+								</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+							</div>
+							<div class="ft-about-feature-wrapper-2">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="ft-about-feature-list-item d-flex align-items-center">
+											<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
+												<i class="fal fa-bullseye-arrow"></i>
+											</div>
+											<div class="ft-about-feature-text headline pera-content">
+												<h3>Our Mission</h3>
+												<p>Lorem ipsum dolor sit amet sed do eiusmod facilisis. 
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="ft-about-feature-list-item d-flex align-items-center">
+											<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
+												<i class="fal fa-bullseye-arrow"></i>
+											</div>
+											<div class="ft-about-feature-text headline pera-content">
+												<h3>Our Vision</h3>
+												<p>Lorem ipsum dolor sit amet sed do eiusmod facilisis. 
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="about.html">Explore More <i class="flaticon-right-arrow"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="ft-about-img-2-wrapper position-relative">
+							<span class="ft-about-shape1 position-absolute"><img src="assets/img/shape/ab-sh1.png" alt=""></span>
+							<span class="ft-about-shape2 position-absolute"><img src="assets/img/shape/ab-sh2.png" alt=""></span>
+							<div class="ft-about-img-2">
+								<img src="assets/frontend_assets/assets/img/about/ab2.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End of About section
+	============================================= -->
 
-            <!-- Form Column -->
-            <div class="form-column col-lg-8 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    @if(session()->has('message'))
-                    <div class="alert alert-success">
-                        {{ session()->get('message') }}
-                    </div>
-                    @endif
-                    <div class="title-box">
-                        <h3>We Love To Hear From You</h3>
-                        <div class="text">If it's not too much trouble informed us regarding whether you have an
-                            inquiry, need to leave a remark, or might want additional data about Advotis</div>
-                    </div>
-
-                    <!-- Contact Form -->
-                    <div class="contact-form">
-                        <form action="{{ route('contact.store') }}" method="POST">
-                            @csrf()
-                            <div class="row clearfix">
-
-                                <div class="form-group col-lg-6 col-md-12 col-sm-12">
-                                    <input type="text" name="name" value="" placeholder="Full Name" required>
-                                </div>
-
-                                <div class="form-group col-lg-6 col-md-12 col-sm-12">
-                                    <input type="email" name="email" value="" placeholder="Email" required>
-                                </div>
-
-                                <div class="form-group col-lg-6 col-md-12 col-sm-12">
-                                    <input type="text" name="subject" value="" placeholder="Subject" required>
-                                </div>
-
-                                <div class="form-group col-lg-6 col-md-12 col-sm-12">
-                                    <input type="text" name="phone" value="" placeholder="Phone" required>
-                                </div>
-
-                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <textarea name="description" placeholder="Message"></textarea>
-                                </div>
-
-                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <button type="submit" class="theme-btn btn-style-five"><span
-                                            class="txt">Submit</span></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Info Column -->
-            <div class="info-column col-lg-4 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <h3>Our Office Address</h3>
-                    <ul>
-                        <li><strong>Main Restaurant:</strong>587, Dartmouthi Street, Boston, Massachusetts 0658,
-                            PO Box 16122 United States</li>
-                        <li><strong>Branch, Raurance Road:</strong>357, West Victoria, Darbaians, Collinsicious
-                            0658, PO Box 16578 London</li>
-                        <li><strong>Have any querry:</strong>Call us on : (1800) 456 7890</li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-<!--End Faq Section-->
-
-<!-- Map Section -->
-<section class="map-section">
-    <!-- Map Boxed -->
-    <div class="map-boxed">
-        <!--Map Outer-->
-        <div class="map-outer">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s"
-                allowfullscreen=""></iframe>
-        </div>
-    </div>
-</section>
-<!-- End Map Section -->
 
 
 @endsection

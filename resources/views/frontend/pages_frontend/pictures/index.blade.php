@@ -5,180 +5,93 @@
 @endsection
 
 @section('content')
-<!-- content  -->
 
-<!-- Page Title -->
-<section class="page-title" style="background-image: url(assets/frontend_assets/assets/images/background/11.jpg)">
-			<div class="auto-container">
-				<h1>Gallery</h1>
-				<ul class="bread-crumb clearfix">
-					<li><a href="/">Home</a></li>
-					<li>Gallery</li>
-				</ul>
-			</div>
-		</section>
-		<!-- End Page Title -->
 
-		<!-- Gallery Page Section -->
-		<section class="gallery-page-section">
-			<div class="auto-container">
-				<div class="row clearfix">
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/6.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/6.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/7.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/7.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/8.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/8.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/9.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/9.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/10.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/10.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/11.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/11.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/12.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/12.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/13.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/13.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/14.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/14.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
+<!-- Start of Breadcrumb section
+	============================================= -->
+	<section id="ft-breadcrumb" class="ft-breadcrumb-section position-relative" data-background="assets/frontend_assets/assets/img/bg/bread-bg.jpg">
+		<span class="background_overlay"></span>
+		<span class="design-shape position-absolute"><img src="assets/frontend_assets/assets/img/shape/tmd-sh.png" alt=""></span>
+		<div class="container">
+			<div class="ft-breadcrumb-content headline text-center position-relative">
+				<h2>About</h2>
+				<div class="ft-breadcrumb-list ul-li">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li>About</li>
+					</ul>
 				</div>
 			</div>
-		</section>
-		<!-- End Gallery Page Section -->
+		</div>
+	</section>	
+<!-- End of Breadcrumb section
+	============================================= -->
+
+<!-- Start of About section
+	============================================= -->
+	<section id="ft-about-2" class="ft-about-section-2">
+		<div class="container">
+			<div class="ft-about-content-2">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="ft-about-text-wrapper-2">
+							<div class="ft-section-title-2 headline pera-content">
+								<span class="sub-title">About Company</span>
+								<h2>We Provide
+									a Reliable Services
+									<span>Since 1982</span>
+								</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+							</div>
+							<div class="ft-about-feature-wrapper-2">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="ft-about-feature-list-item d-flex align-items-center">
+											<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
+												<i class="fal fa-bullseye-arrow"></i>
+											</div>
+											<div class="ft-about-feature-text headline pera-content">
+												<h3>Our Mission</h3>
+												<p>Lorem ipsum dolor sit amet sed do eiusmod facilisis. 
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="ft-about-feature-list-item d-flex align-items-center">
+											<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
+												<i class="fal fa-bullseye-arrow"></i>
+											</div>
+											<div class="ft-about-feature-text headline pera-content">
+												<h3>Our Vision</h3>
+												<p>Lorem ipsum dolor sit amet sed do eiusmod facilisis. 
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="about.html">Explore More <i class="flaticon-right-arrow"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="ft-about-img-2-wrapper position-relative">
+							<span class="ft-about-shape1 position-absolute"><img src="assets/img/shape/ab-sh1.png" alt=""></span>
+							<span class="ft-about-shape2 position-absolute"><img src="assets/img/shape/ab-sh2.png" alt=""></span>
+							<div class="ft-about-img-2">
+								<img src="assets/frontend_assets/assets/img/about/ab2.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End of About section
+	============================================= -->
+
+
+
 @endsection

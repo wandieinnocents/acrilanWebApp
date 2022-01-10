@@ -1,4 +1,4 @@
-	<footer id="ft-footer-3" class="ft-footer-section-3" data-background="assets/frontend_assets/assets/img/bg/f-bg3.jpg">
+	<footer id="ft-footer-3" class="ft-footer-section-3" data-background="{{ asset('assets/frontend_assets/assets/img/bg/f-bg3.jpg') }}">
 		<div class="ft-footer-widget-wrapper-3">
 			<div class="container">
 				<div class="ft-footer-content-wrap-3">
@@ -7,7 +7,7 @@
 							<div class="ft-footer-widget">
 								<div class="ft-footer-logo-widget headline pera-content">
 									<div class="ft-footer-logo">
-										<a href="#"><img src="assets/frontend_assets/assets/img/logo/logo2.png" alt=""></a>
+										<a href="#"><img src="{{ asset('assets/frontend_assets/assets/img/logo/logo2.png') }}" alt=""></a>
 									</div>
 									<p>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
 									<a class="footer-logo-btn text-center text-uppercase" href="about.html">About us</a>
@@ -66,12 +66,12 @@
 								<div class="gallery-widget clearfix">
 									<h3 class="widget-title">Gallery </h3>
 									<ul class="zoom-gallery">
-										<li><a href="assets/frontend_assets/assets/img/gallery/gl1.jpg" data-source="assets/img/gallery/gl1.jpg"><img src="assets/img/gallery/gl1.jpg" alt=""></a></li>
-										<li><a href="assets/frontend_assets/assets/img/gallery/gl2.jpg" data-source="assets/img/gallery/gl2.jpg"><img src="assets/img/gallery/gl2.jpg" alt=""></a></li>
-										<li><a href="assets/frontend_assets/assets/img/gallery/gl3.jpg" data-source="assets/img/gallery/gl3.jpg"><img src="assets/img/gallery/gl3.jpg" alt=""></a></li>
-										<li><a href="assets/frontend_assets/assets/img/gallery/gl4.jpg" data-source="assets/img/gallery/gl4.jpg"><img src="assets/img/gallery/gl4.jpg" alt=""></a></li>
-										<li><a href="assets/frontend_assets/assets/img/gallery/gl5.jpg" data-source="assets/img/gallery/gl4.jpg"><img src="assets/img/gallery/gl5.jpg" alt=""></a></li>
-										<li><a href="assets/frontend_assets/assets/img/gallery/gl6.jpg" data-source="assets/img/gallery/gl4.jpg"><img src="assets/img/gallery/gl6.jpg" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl1.jpg" data-source="assets/frontend_assets/assets/img/gallery/gl1.jpg"><img src="{{ asset('assets/frontend_assets/assets/img/gallery/gl1.jpg') }}" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl2.jpg" data-source="assets/frontend_assets/assets/img/gallery/gl2.jpg"><img src="{{ asset('assets/frontend_assets/assets/img/gallery/gl2.jpg') }}" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl3.jpg" data-source="assets/frontend_assets/assets/img/gallery/gl3.jpg"><img src="{{ asset('assets/frontend_assets/assets/img/gallery/gl3.jpg') }}" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl4.jpg" data-source="assets/frontend_assets/assets/img/gallery/gl4.jpg"><img src="{{ asset('assets/frontend_assets/assets/img/gallery/gl4.jpg') }}" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl5.jpg" data-source="assets/frontend_assets/assets/img/gallery/gl4.jpg"><img src="{{ asset('assets/frontend_assets/assets/img/gallery/gl5.jpg') }}" alt=""></a></li>
+										<li><a href="assets/frontend_assets/assets/img/gallery/gl6.jpg" data-source="assets/frontend_assets/assets/img/gallery/gl4.jpg"><img src="{{ asset('assets/frontend_assets/assets/img/gallery/gl6.jpg') }}" alt=""></a></li>
 									</ul>
 								</div>
 							</div>

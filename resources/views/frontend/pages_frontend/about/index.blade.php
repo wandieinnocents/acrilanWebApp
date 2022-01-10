@@ -5,160 +5,93 @@
 @endsection
 
 @section('content')
-<!-- content  -->
 
-	<!-- Page Title -->
-    <section class="page-title" style="background-image: url(assets/frontend_assets/assets/images/background/11.jpg)">
-			<div class="auto-container">
-				<h1>About Us</h1>
-				<ul class="bread-crumb clearfix">
-					<li><a href="/">Home</a></li>
-					<li>About Us</li>
-				</ul>
-			</div>
-		</section>
-		<!-- End Page Title -->
 
-		<!-- About Section Two -->
-		<section class="about-section-two">
-			<div class="auto-container">
-				<div class="row clearfix">
-
-					<!-- Content Column -->
-					<div class="content-column col-lg-7 col-md-12 col-sm-12">
-						<div class="inner-column">
-							<h2>About Us</h2>
-							<div class="text">
-								<p>la cuisine de sarah , founded 2021 by Ex intercontinental cuisine chef , Mbonde bilari who 
-									worked with several 5 star hotels and restaurants around the globe , the name “ 
-									la cuisine de Sarah”derives from his late mom sarah , which means (Sarah’s kitchen)la 
-									cuisine de sarah is a business combined with extraordinary 5 star service in food 
-									service as well as hotel and tourism industry. Therefore the greatly earned experience 
-									from the past consistency, is behind its formation.</p>
-								
-							</div>
-						</div>
-					</div>
-
-					<!-- Images Column -->
-					<div class="images-column col-lg-5 col-md-12 col-sm-12">
-						<div class="inner-column">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/resource/about-1.jpg" alt="" />
-							</div>
-							<div class="image-two">
-								<img src="assets/frontend_assets/assets/images/resource/about-2.jpg" alt="" />
-							</div>
-						</div>
-					</div>
-
+<!-- Start of Breadcrumb section
+	============================================= -->
+	<section id="ft-breadcrumb" class="ft-breadcrumb-section position-relative" data-background="assets/frontend_assets/assets/img/bg/bread-bg.jpg">
+		<span class="background_overlay"></span>
+		<span class="design-shape position-absolute"><img src="assets/frontend_assets/assets/img/shape/tmd-sh.png" alt=""></span>
+		<div class="container">
+			<div class="ft-breadcrumb-content headline text-center position-relative">
+				<h2>About</h2>
+				<div class="ft-breadcrumb-list ul-li">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li>About</li>
+					</ul>
 				</div>
 			</div>
-		</section>
-		<!-- End About Section Two -->
+		</div>
+	</section>	
+<!-- End of Breadcrumb section
+	============================================= -->
 
-	
-
-		<!-- Testimonial Section Two -->
-		<!-- <section class="testimonial-section-two" style="background-image:url(assets/frontend_assets/assets/images/background/13.jpg)">
-			<div class="auto-container">
-				<div class="inner-container">
-					<div class="sec-title light">
-						<h2>What our Client Says</h2>
+<!-- Start of About section
+	============================================= -->
+	<section id="ft-about-2" class="ft-about-section-2">
+		<div class="container">
+			<div class="ft-about-content-2">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="ft-about-text-wrapper-2">
+							<div class="ft-section-title-2 headline pera-content">
+								<span class="sub-title">About Company</span>
+								<h2>We Provide
+									a Reliable Services
+									<span>Since 1982</span>
+								</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+							</div>
+							<div class="ft-about-feature-wrapper-2">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="ft-about-feature-list-item d-flex align-items-center">
+											<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
+												<i class="fal fa-bullseye-arrow"></i>
+											</div>
+											<div class="ft-about-feature-text headline pera-content">
+												<h3>Our Mission</h3>
+												<p>Lorem ipsum dolor sit amet sed do eiusmod facilisis. 
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="ft-about-feature-list-item d-flex align-items-center">
+											<div class="ft-about-feature-icon d-flex align-items-center justify-content-center">
+												<i class="fal fa-bullseye-arrow"></i>
+											</div>
+											<div class="ft-about-feature-text headline pera-content">
+												<h3>Our Vision</h3>
+												<p>Lorem ipsum dolor sit amet sed do eiusmod facilisis. 
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="about.html">Explore More <i class="flaticon-right-arrow"></i></a>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="single-item-carousel owl-carousel owl-theme">
-
-						<div class="testimonial-block-two">
-							<div class="inner-box">
-								<div class="image-box">
-									<div class="image"><img src="assets/frontend_assets/assets/images/resource/author-2.jpg" alt="" /></div>
-								</div>
-								<div class="text">Osed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-									nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-									consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt.
-									Neque porro quisquam est.</div>
-								<div class="quote-icon">
-									<span class="icon fa fa-quote-left"></span>
-								</div>
-								<div class="author">- Robert joe</div>
+					<div class="col-lg-6">
+						<div class="ft-about-img-2-wrapper position-relative">
+							<span class="ft-about-shape1 position-absolute"><img src="assets/img/shape/ab-sh1.png" alt=""></span>
+							<span class="ft-about-shape2 position-absolute"><img src="assets/img/shape/ab-sh2.png" alt=""></span>
+							<div class="ft-about-img-2">
+								<img src="assets/frontend_assets/assets/img/about/ab2.jpg" alt="">
 							</div>
 						</div>
-
-						<div class="testimonial-block-two">
-							<div class="inner-box">
-								<div class="image-box">
-									<div class="image"><img src="assets/frontend_assets/assets/images/resource/author-2.jpg" alt="" /></div>
-								</div>
-								<div class="text">Osed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-									nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-									consectetur, adipisci sed quia non numquam qui ratione voluptatem sequi nesciunt.
-									Neque porro quisquam est.</div>
-								<div class="quote-icon">
-									<span class="icon fa fa-quote-left"></span>
-								</div>
-								<div class="author">- Robert joe</div>
-							</div>
-						</div>
-
 					</div>
 				</div>
 			</div>
-		</section> -->
-		<!-- End Testimonial Section Two -->
-		<hr>
+		</div>
+	</section>
+<!-- End of About section
+	============================================= -->
 
-		<!-- Services Section -->
-		<section class="services-section style-two">
-			<div class="auto-container">
-				<div class="row clearfix">
 
-					<!-- Service Block -->
-					<div class="service-block col-lg-3 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="icon-box">
-								<img src="assets/frontend_assets/assets/images/resource/service-1.png" alt="" />
-							</div>
-							<h6>Free shipping on <br> first order</h6>
-							<div class="text">Sign up for updates and <br> get free shipping</div>
-						</div>
-					</div>
-
-					<!-- Service Block -->
-					<div class="service-block col-lg-3 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="icon-box">
-								<img src="assets/frontend_assets/assets/images/resource/service-2.png" alt="" />
-							</div>
-							<h6>Best Taste <br> Guaranttee</h6>
-							<div class="text">We use best ingredients to <br> cook the taste food.</div>
-						</div>
-					</div>
-
-					<!-- Service Block -->
-					<div class="service-block col-lg-3 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="icon-box">
-								<img src="assets/frontend_assets/assets/images/resource/service-3.png" alt="" />
-							</div>
-							<h6>Variety of <br> Dishes</h6>
-							<div class="text">We give variety of dishes, <br> deserts, and drinks</div>
-						</div>
-					</div>
-
-					<!-- Service Block -->
-					<div class="service-block col-lg-3 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="icon-box">
-								<img src="assets/frontend_assets/assets/images/resource/service-4.png" alt="" />
-							</div>
-							<h6>25 Minites <br> Delivery</h6>
-							<div class="text">We deliver your food at <br> your dooe that you order</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-		<!-- End Services Section -->
 
 @endsection
