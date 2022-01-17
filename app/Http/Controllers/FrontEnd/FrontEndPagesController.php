@@ -8,7 +8,11 @@ use Illuminate\Http\Request;
 class FrontEndPagesController extends Controller
 {
     
- 
+ public function profile(){
+     
+        return view('frontend.pages_frontend.profile.index');
+    }
+
 
 
 }

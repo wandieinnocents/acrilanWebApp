@@ -23,6 +23,13 @@ Route::get('/', function () {
 // FRONT END ROUTES
 // about us
 Route::resource('/about', 'App\Http\Controllers\FrontEnd\FrontEndAboutController');
+
+// company profile 
+Route::get('/profile', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@profile');
+
+
+Route::resource('/project', 'App\Http\Controllers\FrontEnd\FrontEndProjectController');
+
 // testimonials
 Route::resource('/testimonials', 'App\Http\Controllers\FrontEnd\FrontEndTestimonialController');
 // services
@@ -50,9 +57,6 @@ Auth::routes();
 
 // middleware auth 
 Route::group(['middleware' => ['auth']], function() {
-
-
-
 // users
 Route::resource('/users', 'App\Http\Controllers\UserController');
 // Roles
@@ -67,11 +71,11 @@ Route::resource('/post_categories', 'App\Http\Controllers\BackEnd\PostCategoryCo
 // Admin dashboard 
 Route::resource('/dashboard', 'App\Http\Controllers\BackEnd\DashboardController');
 // Bookings
-// Route::resource('/bookings', 'App\Http\Controllers\BackEnd\BookingController');
+Route::resource('/bookings', 'App\Http\Controllers\BackEnd\BookingController');
 // Feedbacks
 Route::resource('/feedbacks', 'App\Http\Controllers\BackEnd\FeedbackController');
 // Orders
-// Route::resource('/orders', 'App\Http\Controllers\BackEnd\OrderController');
+Route::resource('/orders', 'App\Http\Controllers\BackEnd\OrderController');
 
 Route::resource('/gallery_categories', 'App\Http\Controllers\BackEnd\GalleryCategoryController');
 // Gallery 

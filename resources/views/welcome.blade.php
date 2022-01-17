@@ -17,7 +17,7 @@
 	============================================= -->
 	<section id="ft-service-3" class="ft-service-section-3">
 		<div class="container">
-			<div class="ft-section-title-3 headline text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+		<div class="ft-section-title-3 headline text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 				<span class="text-uppercase">We specialise in the transportation</span>
 				<h2>Specialist Logistics Services</h2>
 			</div>
@@ -31,8 +31,20 @@
 								<i class="fal fa-anchor"></i>
 							</div>
 							<div class="ft-goodness-featured-text headline pera-content">
-								<h3>Trusted Franchise</h3>
-								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+								<h3>Public Passenger transport</h3>
+								<p>
+								We offer mass in public transportation that is reliable, safe and clean. 
+								<br>
+								.
+								</p>
+								<br>
+								<!-- Read More -->
+								<center>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="/works">Read More <i class="flaticon-right-arrow"></i></a>
+								</div>	
+							</center>					
+								<!-- End read more -->
 							</div>
 						</div>
 					</div>
@@ -42,8 +54,19 @@
 								<i class="fal fa-user-headset"></i>
 							</div>
 							<div class="ft-goodness-featured-text headline pera-content">
-								<h3>Customer Support</h3>
-								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+								<h3>Tracking services </h3>
+								<p>
+
+								Client consignments are tracked through GPS ensuring an expected time of arrival of goods is attained.									
+								</p>
+								<br>
+								<!-- Read More -->
+								<center>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="/works">Read More <i class="flaticon-right-arrow"></i></a>
+								</div>	
+							</center>					
+								<!-- End read more -->
 							</div>
 						</div>
 					</div>
@@ -53,8 +76,19 @@
 								<i class="fal fa-badge-sheriff"></i>
 							</div>
 							<div class="ft-goodness-featured-text headline pera-content">
-								<h3>Reliability &amp; Punctuality</h3>
-								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+								<h3>Logistical services</h3>
+								<p>
+									
+								This involves meeting customer demands through effective planning, control and implementation of the movement of goods. 
+							</p>
+							<br>
+							<!-- Read More -->
+							<center>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="/works">Read More <i class="flaticon-right-arrow"></i></a>
+								</div>	
+							</center>					
+								<!-- End read more -->
 							</div>
 						</div>
 					</div>
@@ -70,8 +104,19 @@
 								<i class="fal fa-anchor"></i>
 							</div>
 							<div class="ft-goodness-featured-text headline pera-content">
-								<h3>Trusted Franchise</h3>
-								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+								<h3>Airport transfers</h3>
+								<p>
+									
+								This involves taxi and shuttle operation services for departures and arrivals pick-ups of our clients at the airports in Uganda.
+							</p>
+							<br>
+							<!-- Read More -->
+							<center>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="/works">Read More <i class="flaticon-right-arrow"></i></a>
+								</div>	
+							</center>					
+								<!-- End read more -->
 							</div>
 						</div>
 					</div>
@@ -81,8 +126,19 @@
 								<i class="fal fa-user-headset"></i>
 							</div>
 							<div class="ft-goodness-featured-text headline pera-content">
-								<h3>Customer Support</h3>
-								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+								<h3>Car Hire</h3>
+								<p>
+								If planning a journey through Uganda with a large group and need privacy and more space we provide you with a vans for hire. 
+
+								</p>
+								<br>
+								<!-- Read More -->
+								<center>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="/works">Read More <i class="flaticon-right-arrow"></i></a>
+								</div>	
+							</center>					
+								<!-- End read more -->
 							</div>
 						</div>
 					</div>
@@ -92,8 +148,19 @@
 								<i class="fal fa-badge-sheriff"></i>
 							</div>
 							<div class="ft-goodness-featured-text headline pera-content">
-								<h3>Reliability &amp; Punctuality</h3>
-								<p>Dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan  vel facilisis. </p>
+								<h3>Agricultural products </h3>
+								<p>
+
+								Deal in Farming and transportation of ready Durable and Non-durable products, Eucalyptus, pines, tomatoes, rice, and many more. 
+									</p>
+									<br>
+									<!-- Read More -->
+								<center>
+								<div class="ft-btn-3">
+									<a class="d-flex justify-content-center align-items-center" href="/works">Read More <i class="flaticon-right-arrow"></i></a>
+								</div>	
+							</center>					
+								<!-- End read more -->
 							</div>
 						</div>
 					</div>
@@ -105,6 +172,9 @@
 <!-- End of Service section
 	============================================= -->
 
+
+
+
 <!-- Start of About section
 	============================================= -->
 	<section id="ft-about-3" class="ft-about-section-3">
@@ -114,47 +184,39 @@
 					<div class="col-lg-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="ft-about-img-wrapper-3 position-relative">
 							<div class="ft-about-img-3">
-								<img src="assets/frontend_assets/assets/img/about/ab2.png" alt="">
+								<img src="assets/frontend_assets/assets/images/1.jpeg" alt="">
+								<hr>
+								<img src="assets/frontend_assets/assets/images/van.jpeg" alt="">
 							</div>
-							<div class="ft-about-sign-img-text">
-								<span class="sign-shape"><img src="assets/frontend_assets/assets/img/shape/sign-sh.png" alt=""></span>
-								<div class="ft-about-sign-img">
-									<img src="assets/frontend_assets/assets/img/about/sign.png" alt="">							
-								</div>
-								<div class="ft-about-sign-text">
-									<span>Chris Hamlet</span>
-								</div>
-							</div>
+							
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="ft-about-text-3">
 							<div class="ft-section-title-3 headline wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<span class="text-uppercase">We specialise in the transportation</span>
-								<h2>We are proud of our
-									workforce and have
-								worked hard.</h2>
+								<span class="text-uppercase">We are providers with an outstanding reputation for</span>
+								<h2>   Service designed to exceed client expectations. </h2>
 							</div>
 							<div class="ft-about-sub-text wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-								This in turn has created a culture we have become respected for, and one that our clients regularly commend us for, feeding back what a pleasure it is to work with both our service staff and the crew members.
-							</div>
-							<div class="ft-about-feature-3 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="ft-about-feature-text">
-											We are very proud of our workforce and have worked hard to create a business that attracts those people who want to appreciate the importance.
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="ft-about-feature-text">
-											This in turn has created a culture we have become respected for, and one that our clients regularly commend us for feeding back crew members.
-										</div>
-									</div>
-								</div>
-							</div>
+
+							Acrilan limited involves Agriculture sector, transportation of cargo from one place (region) to another, controlling the movement and storage of goods, services or information in a supply chain depending on client’s 
+							logistical needs. Acrilan limited provides logistics and transportation services as a core competency. Our main functional areas are Agriculture, transportation, warehousing and distribution. We have agricultural land 
+							for trees and agricultural produce, enough fleet of minibuses, trucks and equipment’s that are operated by highly professional persons that comply with the safety standards who are ready to pick and deliver cargo of 
+							nearly any dimension and structure. Our experienced drivers have longstanding knowledge of local plus contagious nation’s route Although we trade as Logistics Company, the majority of our business comes from the agriculture,
+							 passenger public and private transportation We transport locally and across border (Uganda, Kenya, Tanzania, and South Sudan). 
+							<br>
+							We have invested in modern technology such as Mobile tracking system for cargo trucks which helps increase efficiency and control of any cargo theft. We have a range of vehicles that suite the size and demands of any group. 
+							
+
+
+						</div>
+
+						
+						
+						
 							<div class="ft-about-btn-group text-uppercase d-flex wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-								<a class="d-flex justify-content-center align-items-center" href="contact.html">Get a quote now!  <i class="fas fa-arrow-right"></i></a>
-								<a class="d-flex justify-content-center align-items-center" href="about.html">About Us  <i class="fas fa-arrow-right"></i></a>
+								<a class="d-flex justify-content-center align-items-center" href="/about">READ MORE  <i class="fas fa-arrow-right"></i></a>
+								<a class="d-flex justify-content-center align-items-center" href="/contact/create">CONTACT  <i class="fas fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -174,44 +236,37 @@
 					<img src="assets/frontend_assets/assets/img/project/cs1.jpg" alt="">
 				</div>
 				<div class="ft-case-study-text headline pera-content">
-					<span class="serial-no">01</span>
-					<h3><a href="project-single.html">CT Scanner from Italy to the UK</a></h3>
-					<p>Before anything’s loaded up, there’s de-racking, packing and tracking. There’s surveying and risk assessment. </p>
+					<h3><a href="project-single.html">Cargo </a></h3>
+					<p>We offer transportation of cargo services </p>
+
 				</div>
-				<a class="more-btn d-flex align-items-center justify-content-center" href="project-single.html"><i class="fas fa-arrow-right"></i></a>
 			</div>
 			<div class="ft-case-study-items position-relative">
 				<div class="ft-case-study-img position-relative">
 					<img src="assets/frontend_assets/assets/img/project/cs2.jpg" alt="">
 				</div>
 				<div class="ft-case-study-text headline pera-content">
-					<span class="serial-no">02</span>
-					<h3><a href="project-single.html">Specialist transport services.</a></h3>
-					<p>Before anything’s loaded up, there’s de-racking, packing and tracking. There’s surveying and risk assessment. </p>
+					<h3><a href="project-single.html">Logistics services.</a></h3>
+					<p>We offer logistics services to our clients </p>
 				</div>
-				<a class="more-btn d-flex align-items-center justify-content-center" href="project-single.html"><i class="fas fa-arrow-right"></i></a>
 			</div>
 			<div class="ft-case-study-items position-relative">
 				<div class="ft-case-study-img position-relative">
 					<img src="assets/frontend_assets/assets/img/project/cs3.jpg" alt="">
 				</div>
 				<div class="ft-case-study-text headline pera-content">
-					<span class="serial-no">03</span>
-					<h3><a href="project-single.html">Cash Counters to Paddington Station.</a></h3>
-					<p>Before anything’s loaded up, there’s de-racking, packing and tracking. There’s surveying and risk assessment. </p>
+					<h3><a href="project-single.html">Tracking Services.</a></h3>
+					<p>We offer tracking services </p>
 				</div>
-				<a class="more-btn d-flex align-items-center justify-content-center" href="project-single.html"><i class="fas fa-arrow-right"></i></a>
 			</div>
 			<div class="ft-case-study-items position-relative">
 				<div class="ft-case-study-img position-relative">
 					<img src="assets/frontend_assets/assets/img/project/cs4.jpg" alt="">
 				</div>
 				<div class="ft-case-study-text headline pera-content">
-					<span class="serial-no">04</span>
-					<h3><a href="project-single.html">UK Exhibition support for TENESO Italy.</a></h3>
-					<p>Before anything’s loaded up, there’s de-racking, packing and tracking. There’s surveying and risk assessment. </p>
+					<h3><a href="project-single.html">Airport transfers</a></h3>
+					<p>We offer Airport transfers services. </p>
 				</div>
-				<a class="more-btn d-flex align-items-center justify-content-center" href="project-single.html"><i class="fas fa-arrow-right"></i></a>
 			</div>
 		</div>
 	</section>
@@ -259,8 +314,8 @@
 									<i class="flaticon-compliance"></i>
 								</div>
 								<div class="ft-funfact-inner-text headline pera-content">
-									<h3><span class="counter">30</span>+</h3>
-									<p>Awards Winner</p>
+									<h3><span class="counter">10</span>+</h3>
+									<p>Routes</p>
 								</div>
 							</div>
 						</div>
@@ -270,16 +325,14 @@
 									<i class="flaticon-face-detection"></i>
 								</div>
 								<div class="ft-funfact-inner-text headline pera-content">
-									<h3><span class="counter">155</span>+</h3>
+									<h3><span class="counter">20</span>+</h3>
 									<p>Team Members</p>
 								</div>
 							</div>
 						</div>	
 					</div>
 				</div>
-				<div class="ft-funfact-slug-text text-center">
-					<span>Join over 3000 people who engage with sector. <a href="#">Join Now!</a></span>
-				</div>
+				
 			</div>
 		</div>
 	</section>	

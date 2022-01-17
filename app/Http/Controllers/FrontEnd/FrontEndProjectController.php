@@ -4,9 +4,8 @@ namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Gallery;
 
-class FrontEndGalleryController extends Controller
+class FrontEndProjectController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,10 +14,9 @@ class FrontEndGalleryController extends Controller
      */
     public function index()
     {
-        $pictures = Gallery::all();
-        return view('frontend.pages_frontend.pictures.index',compact('pictures'));
-         }
-
+        return view('frontend.pages_frontend.projects.index'); 
+    }
+    
     /**
      * Show the form for creating a new resource.
      *

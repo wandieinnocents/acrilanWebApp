@@ -6,8 +6,8 @@
 	<title>Acrilan</title>
 	<meta name="description" content="Acrilan - Reliable Logistics and Transportation">
 	<meta name="keywords" content="Acrilan Ltd - Reliable Transportation">
-	<meta name="author" content="Wanran INc">
-	<link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon">
+	<meta name="author" content="Wanran Inc">
+	<link rel="shortcut icon" href="{{ asset('assets/img/logo/ficon.png') }}" type="image/x-icon">
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 

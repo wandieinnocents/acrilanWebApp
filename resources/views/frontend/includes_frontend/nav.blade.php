@@ -3,14 +3,15 @@
 			<div class="ft-header-content position-relative">
 				<div class="ft-header-top d-flex justify-content-end ul-li">
 					<ul>
-						<li><i class="fas fa-map-marker-alt"></i> 380 St Kilda Road, Australia</li>
-						<li><i class="fas fa-clock"></i> 380 St Kilda Road, Australia</li>
-						<li><i class="fas fa-phone"></i> 380 St Kilda Road, Australia</li>
+						<li><i class="fas fa-map-marker-alt"></i> P.O.BOX  534 NTINDA </li>
+						<li><i class="far fa-envelope"></i>info@acrilanltd.com</li>
+						<li><i class="fas fa-phone"></i> 0751465363/0779465363</li>
 					</ul>
 				</div>
 				<div class="ft-header-main-menu d-flex align-items-center justify-content-between">
 					<div class="ft-brand-logo">
-						<a href="#"><img src="assets/frontend_assets/assets/img/logo/logo5.png" alt=""></a>
+						<!-- <a href="#"><img src="{{ asset('assets/frontend_assets/assets/img/logo/logo5.png') }}" alt=""></a> -->
+						<h2 class="text-white" style="margin-top: 10px;font-size:50px;"><b>ACRILAN</b></h2>
 					</div>
 					<div class="ft-header-main-menu-cta  d-flex align-items-center">
 						<nav class="ft-main-navigation clearfix ul-li">
@@ -23,9 +24,9 @@
 									<a href="#">Know Us</a>
 									<ul class="dropdown-menu clearfix">
 										<li><a href="/about">About Us </a></li>
-										<li><a href="">Projects</a></li>
-										<li><a href="">Company Profile</a></li>
-										<li><a href="">Team</a></li>
+										<!-- <li><a href="/project">Projects</a></li> -->
+										<li><a href="/profile">Company Profile</a></li>
+										<!-- <li><a href="">Team</a></li> -->
 
 									</ul>
 								</li>
@@ -35,13 +36,13 @@
 								<li>
 									<a href="/pictures">Gallery</a>
 								</li>
-								<li>
+								<!-- <li>
 									<a href="{{ route('contact.create') }}">Contact</a>
-								</li>
+								</li> -->
 							</ul>
 						</nav>
 						<div class="ft-header-cta-btn">
-							<a class="d-flex justify-content-center align-items-center" href="contact.html">Get a quote now!</a>
+							<a class="d-flex justify-content-center align-items-center" href="{{ route('contact.create') }}">Talk to us!</a>
 						</div>
 					</div>
 				</div>
@@ -60,47 +61,29 @@
 							</div>
 							<nav class="mobile-main-navigation  clearfix ul-li">
 								<ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
-									<li class="dropdown">
-										<a href="%21.html#">Home</a>
-										<ul class="dropdown-menu clearfix">
-											<li><a href="index-1.html">Home Page 1</a></li>
-											<li><a href="index-2.html">Home Page 2</a></li>
-											<li><a href="index-3.html">Home Page 3</a></li>
-										</ul>
-									</li>
-									<li><a href="/about">About</a></li>
-									<li class="dropdown">
-										<a href="%21.html#">Service</a>
-										<ul class="dropdown-menu clearfix">
-											<li><a href="service.html">Service Page </a></li>
-											<li><a href="service-single.html">Service Details</a></li>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="%21.html#">Project</a>
-										<ul class="dropdown-menu clearfix">
-											<li><a href="project.html">Services</a></li>
-											<li><a href="project-single.html">Team Page</a></li>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="%21.html#">News</a>
-										<ul class="dropdown-menu clearfix">
-											<li><a href="blog.html">News </a></li>
-											<li><a href="blog-single.html">News Details</a></li>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="%21.html#">Others</a>
-										<ul class="dropdown-menu clearfix">
-											<li><a href="team.html">Team Page </a></li>
-											<li><a href="team-single.html">Team  Details </a></li>
-											<li><a href="coming-soon.html">Coming Soon</a></li>
-											<li><a href="faq.html">Faq Page</a></li>
-											<li><a href="contact.html">Contact Page</a></li>
-											<li><a href="pricing.html">Pricing Page</a></li>
-										</ul>
-									</li>
+								<li>
+									<a href="/">Home</a>
+								
+								</li>
+								<li class="dropdown">
+									<a href="#">Know Us</a>
+									<ul class="dropdown-menu clearfix">
+										<li><a href="/about">About Us </a></li>
+										<li><a href="/project">Projects</a></li>
+										<li><a href="/profile">Company Profile</a></li>
+										<!-- <li><a href="">Team</a></li> -->
+
+									</ul>
+								</li>
+								<li>
+									<a href="/works">Services</a>
+								</li>
+								<li>
+									<a href="/pictures">Gallery</a>
+								</li>
+								<li>
+									<a href="/contact/create">Contact Us</a>
+								</li>
 								</ul>
 							</nav>
 						</div>
