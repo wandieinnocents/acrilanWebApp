@@ -98,7 +98,7 @@
 							--><a
                         id="slider-29-slide-76-layer-3"
                         class="rs-layer rev-btn"
-                        href="service.html"
+                        href="/works"
                         target="_blank"
                         rel="noopener"
                         data-type="button"
@@ -232,7 +232,7 @@
 							--><a
                         id="slider-29-slide-77-layer-3"
                         class="rs-layer rev-btn"
-                        href="service.html"
+                        href="/works"
                         target="_blank"
                         rel="noopener"
                         data-type="button"

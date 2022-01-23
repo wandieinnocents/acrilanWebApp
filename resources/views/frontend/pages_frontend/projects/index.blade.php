@@ -38,7 +38,7 @@
 				</h2>
 			</div>
 			<div class="ft-project-post-item-content">
-				<!-- <div class="ft-project-item-filter-btn ul-li">
+				<div class="ft-project-item-filter-btn ul-li">
 					<ul id="filters" class="nav-gallery text-center">
 						<li class="filtr-button filtr-active" data-filter="all">All</li>
 						<li class="filtr-button" data-filter="1">Ocen Freight </li>
@@ -46,7 +46,7 @@
 						<li class="filtr-button" data-filter="3">Rail Freight </li>
 						<li class="filtr-button" data-filter="4">Warehouse Freight </li>
 					</ul>
-				</div> -->
+				</div>
 				<div class="ft-project-item-wrapper filtr-container row">
 					<div class="col-lg-4 col-sm-6 filtr-item" data-category="1, 3, 4" data-sort="Busy streets">
 						<div class="ft-portfolio-slider-innerbox position-relative">

@@ -8,6 +8,7 @@ use App\Models\Gallery;
 
 class FrontEndGalleryController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -15,8 +16,23 @@ class FrontEndGalleryController extends Controller
      */
     public function index()
     {
+
         $pictures = Gallery::all();
-        return view('frontend.pages_frontend.pictures.index',compact('pictures'));
+
+        $transport_category = Gallery::where('gallery_category_id',1)->get();
+        $car_hire_category  = Gallery::where('gallery_category_id',2)->get();
+        $airline_category   = Gallery::where('gallery_category_id',3)->get();
+        $tracking           = Gallery::where('gallery_category_id',4)->get();
+        $agriculture        = Gallery::where('gallery_category_id',5)->get();
+        return view('frontend.pages_frontend.pictures.index',compact('pictures',
+        'transport_category',
+        'car_hire_category',
+        'airline_category',
+        'tracking',
+        'agriculture'
+    
+    
+    ));
          }
 
     /**
